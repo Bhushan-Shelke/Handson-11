@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>1]Create one function with zero parameter having a console statement;</h1>
+    <h3>Ans-function one(){
+        console.log("Zero Parameter")
+      };
+      one()</h3>
+    <h1>
+      2]Create one function which takes two values as a parameter and print the
+      sum of them as "Sum of 3, 4 is 7"
+    </h1>
+    <pre>Ans-
+let a=3;
+        let b=7;
+        function  one(a,b){
+          console.log(a+b)
+        }</pre
+    >
+    <h1>3]create an arrow function</h1>
+    <pre>let myFunction = (a, b) => {
+      console.log(a % b);
+      }
+      myFunction(10,3)</pre>
+    <h1>
+      4]var x = 21; var girl = function () { console.log(x); var x = 20; }; girl
+      ();
+    </h1>
+    <h3>Ans-Undefined</h3>
+    <h1>5]"Print output: 
+      var x = 21;
+      girl ();
+      console.log(x)
+      function girl() {
+          console.log(x);
+          var x = 20;
+      };
+      "</h1>
+      <h3>undefined
+         21
+        undefined</h3>
+        <h1>6]"Print output
+
+          var x = 21;
+          a();
+          b();
+          
+            function a() {
+              
+             x = 20;
+            console.log(x);
+          };
+           function b() {
+              
+              x = 40;
+             console.log(x);
+          };"</h1>
+        <h3>Invalid</h3>
+        <h1>7]Write a function that accepts parameter n and returns factorial of n</h1>
+        <pre>function factorial(n) {
+          if (n === 0 || n === 1)
+              return 1;
+          for (var i = n - 1; i >= 1; i--) {
+              n*= i;
+          }
+          return n;
+          }
+          console.log(factorial(5));</pre>
+  </body>
+</html>
